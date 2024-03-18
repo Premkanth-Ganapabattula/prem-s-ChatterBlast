@@ -102,7 +102,7 @@
 .posts-followings-followers-count {
     display: flex;
     justify-content: space-around;
-    width: 70%;
+    width: 90%;
 }
 
 .posts-count-profile-container,
@@ -202,7 +202,7 @@
         border-radius: 10px;
         text-align: center;
         box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
-        height: 35vh;
+        height: 45vh;
         width: 80vw;
         background-color: #ffffff;
     }
