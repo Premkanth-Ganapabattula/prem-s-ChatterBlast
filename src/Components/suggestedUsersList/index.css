@@ -1,0 +1,21 @@
+.main-container-suggestions-list {
+    display: flex;
+}
+
+.suggestions-list-card {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+    overflow-y: auto;
+}
+
+@media (max-width: 900px) {
+
+    .main-container-following-list {
+        width: 100%;
+    }
+
+    .suggestions-list-card {
+        width: 100%;
+    }
+}

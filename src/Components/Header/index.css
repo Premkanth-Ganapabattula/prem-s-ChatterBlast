@@ -1,0 +1,316 @@
+.nav-container {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+  width: 100%;
+  height: 6vh;
+}
+
+.chatterblast-logo {
+  margin-left: 10px;
+  color: #0055FF;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Roboto;
+}
+
+.social-media-elements-small {
+  display: none;
+}
+
+.e-commerce-food {
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-media-elements-large {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.profile-card {
+  background-color: aliceblue;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.nav-container {
+  position: relative;
+}
+
+.logo-size {
+  background: #F5F5F5;
+  color: #ADB5Bd;
+  text-align: center;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  &:hover {
+    background-color: #D2E3FF;
+    color: #0055FF;
+    transform: translate(-0px, -6px);
+    transition: all .2s linear;
+    /* box-shadow: -2em 2em 0 #e1e1e1; */   
+  }  
+}
+
+.profile-card-details p {
+  color: #fff; /* Set text color to white */
+  margin: 0;
+}
+
+.modal-card-for-messages {
+  width: 70vw;
+  height: 80Vh;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ADB5Bd;
+}
+
+.comments-converstions-card {
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+}
+
+.comments-card {
+  box-sizing: border-box;
+  width: 25vw;
+  height: 100%;
+  background-color: #adafb2;
+}
+
+.converstion-card {
+  box-sizing: border-box;
+  width: 45vw;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.profile-bar-chat {
+  box-sizing: border-box;
+  height: 8vh;
+  background-color: #d5d6da;
+  margin: 0px;
+}
+
+.chat-details-card {
+  box-sizing: border-box;
+  height: 64vh;
+  background-color:#ccc ;
+  overflow-y: auto;
+  scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+  scroll-margin-bottom: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+/*.chat-details-card::-webkit-scrollbar {
+  width: 6px;  
+  height: 100%; 
+  background-color: #364f74;
+  color: red;
+}*/
+
+.input-elements-for-messages {
+  box-sizing: border-box;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-end;
+  padding: 20px;
+  margin-top: 5px;
+}
+.input-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color:#c2c1c1;
+  width: 100%;
+  padding-left: 5px;
+  border-radius: 6px;
+  padding-right: 5px;
+}
+
+.input-element-in-messages {
+  width: 90%;
+  background-color: transparent;
+  height: 30px;
+  border-width: 0px;
+  padding-left: 5px;
+}
+
+.messages-search-input-card {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #cdcdcd;
+}
+
+.messages-search-input {
+  background-color: transparent;
+  border-width: 0px;
+  width: 90%;
+  padding-left: 40%;
+  height: 20px;
+}
+
+.emoji-chat-container {
+  margin-left: 5px;
+}
+
+.send-icon {
+  padding-left: 5px;
+}
+
+.profile-bar-chat {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-bar-message {
+   height: 30px;
+   width: 30px;
+   border-radius: 50px;
+}
+
+.card-notification {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  height: 85vh;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.overlay-notification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+.card {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+@media (max-width: 900px) {
+  .nav-container {
+    height: 6vh;
+    width: 100vw;
+  }
+
+  .chatterblast-logo {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .e-commerce-food {
+    display: none;
+    width: 70px;
+  }
+
+  .voice-module-for-large-devices {
+    display: none;
+  }
+
+  .social-media-elements-large {
+    display: none;
+  }
+
+  .social-media-elements-small {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logos-small-devices {
+    background: #F5F5F5;
+    color: #ADB5Bd;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  .nav-container {
+    height: 6vh;
+  }
+
+  .chatterblast-logo {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

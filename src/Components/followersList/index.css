@@ -1,0 +1,213 @@
+.main-container-followers-list {
+    display: flex;
+    height: 91vh;
+}
+
+.followers-list-card {
+    width: 30%;
+    background-color: #F8F9FB;
+    height: 100%;
+    margin-top: 1px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.profile-card-user {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ededed;
+    overflow-y: auto;
+}
+
+.followers-heading {
+    padding: 4px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:1px solid #e2e3e4;
+    margin-top: 0px;
+}
+
+.profile-following-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.profile-card-profile-container {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-size: 
+      100% 35%, 
+      100% 65%; 
+    background-position: 
+      center top, 
+      center bottom; 
+    background-repeat: 
+      no-repeat, 
+      no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    height: 55vh;
+    width: 40vw;
+    background-color: #ffffff;
+}
+
+.following-button {
+    background-color: rgb(72, 116, 228);
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+/*.profile-image-in-profile-container {
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+} */
+
+.profile-image-in-detailed-view {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.3);
+}
+
+.username-profile-detailed-view {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.full-name-profile-detailed-view {
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 11px;
+}
+
+.posts-followings-followers-count {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.posts-count-profile-container,
+.followers-count-profile-container,
+.followings-count-profile-container {
+    width: 20%;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.post-count-text,
+.followers-count-text,
+.followings-count-text {
+    color: rgb(219, 131, 131);
+    font-family: cursive;
+}
+
+.count-text {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.message-button-profile-container {
+    background-color: rgb(216, 196, 141);
+    border-width: 0px;
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.show-more-button {
+    border-width: 0px;
+    background-image: linear-gradient(to right, rgb(255, 189, 189), rgb(179, 179, 255));
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 28px;
+    width: 80px;
+    font-size: 10px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.feed-reels-icons-card {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    background-color: #FFF;
+}
+
+.icon-in-detailed-view {
+    width: 20px;
+    height: 20px;
+}
+
+.posts-display-main-container {
+    width: 70%;
+    padding: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+    .followers-list-card {
+        width: 100%;
+    }
+
+    .noneDisplay {
+        display: none;
+    }
+
+    .profile-card-profile-container {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        background-size: 
+        100% 35%, 
+        100% 65%; 
+        background-position: 
+        center top, 
+        center bottom; 
+        background-repeat: 
+        no-repeat, 
+        no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10vh;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+        height: 35vh;
+        width: 80vw;
+        background-color: #ffffff;
+    }
+
+    .posts-display-main-container {
+        width: 95%;
+    }
+} 

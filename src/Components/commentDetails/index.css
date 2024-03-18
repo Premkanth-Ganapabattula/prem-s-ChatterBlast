@@ -1,0 +1,82 @@
+.comment-details-main-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.profle-card {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.profile-like-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+}
+
+.bottom-card{
+    margin-left: 20px;
+}
+
+.profile-comment-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    width: 35vw;
+}
+
+.profilePhoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.time-likes-reply {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0px;
+}
+
+.username-in-comments {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 60%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.comment-time {
+    margin-top: -5px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buttons-in-comments {
+    border-width: 0px;
+    background-color: transparent;
+    margin-top: -5px;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 900px) {
+    .username-in-comments {
+        font-size: 10px;
+    }
+
+    .profile-like-button {
+        width: 100%;
+    }
+    
+    .profile-comment-content {
+        width: 80%;
+    }
+}

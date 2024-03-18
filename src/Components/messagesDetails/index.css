@@ -1,0 +1,85 @@
+.messages-main-container-large {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.messages-main-container-small {
+    display: none;
+}
+
+.message-user-small{
+    display: none;
+}
+
+.profile-photo-three-dots {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-message {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.profile-message-content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.username-last-message {
+    padding-left: 5px;
+}
+
+.username-message {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+}
+
+.last-message {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    width: 60%;
+    height: 10px;
+    overflow: hidden;
+}
+
+.messages-three-dots {
+    text-align: right;
+    width: 30%;
+}
+
+.message-sent-time {
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+@media (max-width: 900px) {
+    .messages-main-container-large{
+        display: none;
+    }
+
+    .messages-main-container-small {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+        display: block;
+    }
+
+    .message-user-small {
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+}

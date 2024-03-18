@@ -1,0 +1,66 @@
+.menu-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 91vh;
+}
+
+.view-profile-card-in-menu {
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    border: 1px solid #9e9c9c;
+}
+
+.profile-image-menu {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.username-menu {
+    color: black;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.all-elements-in-menu {
+    width: 90%;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 90%;
+}
+
+.additional-cards {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 7px;
+    border: 1px solid #9e9c9c;
+    text-decoration: none;
+    color: black;
+    width: 30%;
+    flex-grow: 1;
+}

@@ -1,0 +1,49 @@
+.carousel-container {
+    width: 100%;
+    position: relative;
+}
+
+.slide-item {
+    width: 100%; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Example border style */
+    /* Ensure the container is relative */
+    position: relative;
+}
+
+.ads-image {
+    width: 100%;
+    height: 100%;
+    
+  
+    /* Preserve the aspect ratio of the image */
+    object-fit: cover;
+}
+
+/* index.css */
+
+/* Styling for the carousel container */
+  
+  /* Styling for the next and previous arrows */
+  .slick-prev,
+  .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Adjust the arrow width as needed */
+    height: 30px; /* Adjust the arrow height as needed */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    border: none;
+    border-radius: 50%; /* Makes the arrow round */
+    cursor: pointer;
+    z-index: 1; /* Ensure arrows are above images */
+  }
+  
+  .slick-prev {
+    left: 10px; /* Adjust the distance from the left as needed */
+  }
+  
+  .slick-next {
+    right: 10px; /* Adjust the distance from the right as needed */
+  }
+  

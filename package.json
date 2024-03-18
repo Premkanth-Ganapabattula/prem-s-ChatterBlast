@@ -1,0 +1,72 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://chatterblast-server.onrender.com",
+  "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.3.3",
+    "emoji-picker-react": "^4.7.18",
+    "express": "^4.17.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "leaflet": "^1.9.4",
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.44",
+    "node.js": "^0.0.1-security",
+    "nouislider-react": "^3.4.2",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "python-shell": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-leaflet": "^4.2.1",
+    "react-loader-spinner": "^4.0.0",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "craco": "^0.0.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

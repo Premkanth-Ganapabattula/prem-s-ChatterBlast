@@ -1,0 +1,19 @@
+.model-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-display {
+    width: 200px;
+    height: 200px;
+}
+
+.video-file {
+    width: 100px;
+    height: 100px;
+}
+
+.caption-status {
+    width: 80%;
+    border-radius: 10px;
+}

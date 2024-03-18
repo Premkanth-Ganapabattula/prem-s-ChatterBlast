@@ -1,0 +1,27 @@
+.main-container-following-list {
+    display: flex;
+    height: 91.3vh;
+}
+
+.following-list-card {
+    width: 30%;
+    background-color: #F8F9FB;
+    height: 100%;
+    margin-top: 1px;
+    overflow: auto;
+}
+
+.following-heading {
+    padding: 4px;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:1px solid #e2e3e4;
+    margin-top: 0px;
+}
+
+@media (max-width: 900px) {
+
+    .following-list-card {
+        width: 100%;
+    }
+}

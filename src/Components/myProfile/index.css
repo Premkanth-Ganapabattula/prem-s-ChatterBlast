@@ -1,0 +1,75 @@
+.my-profile-main-container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 91vh;
+    display: flex;
+}
+
+.left-screen-my-profile {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(194, 191, 191);
+}
+
+.middle-screen-my-profile {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(151, 151, 152);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.right-screen-my-profile {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(194, 191, 191);
+}
+
+.profile-card-my-profile {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-size: 
+      100% 35%, 
+      100% 65%; 
+    background-position: 
+      center top, 
+      center bottom; 
+    background-repeat: 
+      no-repeat, 
+      no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+    height: 55vh;
+    width: 80%;
+    background-color: #ffffff;
+}
+
+.profile-content-username-fullname-my-profile {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.posts-display-my-profile {
+    width: 95%;
+}
+
+@media (max-width: 900px) {
+    .left-screen-my-profile {
+        display: none;
+    }
+    .middle-screen-my-profile {
+        width: 100%;
+    }
+    .right-screen-my-profile {
+        display: none;
+    }
+}

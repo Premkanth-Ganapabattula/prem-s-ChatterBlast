@@ -1,0 +1,35 @@
+.main-container-chat-details-small {
+    background-color: #ccc;
+    height: 100vh;
+}
+
+.profile-bar-chat-small {
+    box-sizing: border-box;
+    height: 60px;
+    background-color: #d5d6da;
+    margin: 0px;
+    padding: 10px;
+  }
+  
+  .chat-details-card-small {
+    box-sizing: border-box;
+    height: 83vh;
+    background-color:#ccc ;
+    overflow-y: auto;
+    scroll-behavior: smooth; /* Enable smooth scrolling behavior */
+    scroll-margin-bottom: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0px;
+  }
+  
+  .input-elements-for-messages-small {
+    box-sizing: border-box;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding: 20px;
+    margin-top: 5px;
+  }

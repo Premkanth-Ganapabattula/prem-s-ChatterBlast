@@ -1,0 +1,230 @@
+.registration-form-container{
+    background-size: cover;
+    background-image: url('../Images/login-background-image.jpg');
+    display: flex;
+    height: 120vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatterblast-heading {
+    color: rgb(122, 211, 240);
+    font-family: 'Roboto';
+}
+
+.create-account-text {
+    text-align: center;
+}
+
+
+.input-element-f-l {
+    font-size: 12px;
+    height: 15px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    margin-top: 3px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+    flex-wrap: 1;
+    border-radius: 10px;
+    &:hover {
+        background-color: #ffffff;
+        color: #393737;
+        transform: translate(-0px, -2px);
+        transition: all .25s linear;
+      }
+}
+
+.input-element {
+    font-size: 12px;
+    height: 15px;
+    width: 450px;
+    border: 1px solid #cfd4d9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    margin-top: 3px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+    flex-wrap: 1;
+    border-radius: 10px;
+    &:hover {
+        background-color: #ffffff;
+        color: #393737;
+        transform: translate(-0px, -2px);
+        transition: all .25s linear;
+      }
+}
+
+.select-element {
+    font-size: 12px;
+    height: 32px;
+    width: 180px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 10px;
+    margin-top: 5px;
+    outline: none;
+    flex-wrap: 1;
+    &:hover {
+        background-color: #ffffff;
+        color: #393737;
+        transform: translate(-0px, -2px);
+        transition: all .25s linear;
+      }
+}
+
+.fristname-lastname {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container-res {
+    background-color: transparent;
+    width: 500px;
+    padding: 20px;
+    box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #FFFFFF;
+    &:hover {
+        background: transparent;
+        color: black;
+        transform: translate(-0px, -6px);
+        transition: all .25s linear;
+        box-shadow: 0px 8px 40px rgb(122, 211, 240);
+      }
+}
+
+.input-element-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.label-names {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #475569;
+}
+
+.signup-button{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    height: 40px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color: #0b69ff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        background: #0b69ff;
+        color: #fffcfb;
+        transform: translate(-0px, -6px);
+        transition: all .25s linear;
+        box-shadow: inset 400px 0 0 0 rgb(122, 211, 240);
+      }
+}
+
+.signup-button-container{
+    text-align: center;
+}
+
+.have-account-text{
+    color: #0b69ff;
+    padding-top: 5px;
+    text-align: center;
+    &:hover {
+        color: #436192;
+        transform: translate(-0px, -6px);
+        transition: all .25s linear;
+      }
+}
+
+.error-msg {
+    color: red;
+    font-size: 10px;
+    font-family: 'Roboto';
+}
+
+@media (max-width: 567px) {
+    .registration-form-container{
+        height: 100vh;
+    }
+
+    .form-container-res {
+        width: 280px;
+        padding: 10px;
+    }
+
+    .chatterblast-heading {
+        font-size: 25px;
+    }
+
+    .create-account-text{
+        font-size: 22px;
+    }
+
+    .input-element-f-l {
+        width: 80%;
+        border-radius: 5px;
+        height: 20px;
+        padding: 3px 6px 3px 6px;
+    }
+
+    .input-element,
+    .select-element {
+        width: 90%;
+        border-radius: 5px;
+        height: 20px;
+        padding: 3px 6px 3px 6px;
+    }
+}
+
+@media (min-width: 568px) and (max-width: 1200px) {
+    .registration-form-container{
+        height: 150vh;
+    }
+
+    .form-container-res {
+        width: 400px;
+        padding: 20px;
+    }
+
+    .chatterblast-heading {
+        font-size: 28px;
+    }
+
+    .create-account-text{
+        font-size: 25px;
+    }
+
+    .input-element-f-l {
+        width: 80%;
+        border-radius: 8px;
+        height: 20px;
+        padding: 4px 8px 4px 8px;
+    }
+
+    .input-element,
+    .select-element {
+        width: 90%;
+        border-radius: 8px;
+        height: 20px;
+        padding: 3px 6px 3px 6px;
+    }
+}

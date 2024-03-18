@@ -1,0 +1,10 @@
+.main-container-for-suggestions-and-requests{
+    padding: 3%;
+}
+.side-heading-suggestions-requests {
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 1px solid #efebeb;
+    background-color: aliceblue;
+}
