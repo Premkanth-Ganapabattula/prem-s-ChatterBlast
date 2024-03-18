@@ -21,11 +21,11 @@ class RegistrationForm extends Component {
 
     registrationSuccess = (jwtToken, id) => {
         Cookies.set('jwt_token', jwtToken, {
-        expires: 30,
+        expires: 1,
         path: '/',
         })
         Cookies.set('user_id', id,{
-            expires: 30,
+            expires: 1,
             path: '/',
         })
         this.setState({redirect: true, loadingSingupButton: false})        

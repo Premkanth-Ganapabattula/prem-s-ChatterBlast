@@ -507,13 +507,13 @@ class Header extends Component {
             <div className="overlay-notification" onClick={this.handleOutSideClickNotification}></div>
           )}
         <div className='social-media-elements-large'>
-          <VoiceControlledComponent 
+          {/*<VoiceControlledComponent 
             onClickMessagesIcon={this.onClickMessagesIcon}
             onClickMessageCardCloseIcon={this.onClickMessageCardCloseIcon}
             gettingNotificationDetails={this.gettingNotificationDetails}
             handleOutSideClickNotification={this.handleOutSideClickNotification}
             className="voice-module-for-large-devices"
-          />
+          />*/}
           <Link to="/" >
             <IoMdHome className='logo-size'/>
           </Link>
