@@ -10,7 +10,7 @@ const cardList = [
         name: 'Followers', 
         path: '/user/followers'
     },{
-        name: 'Followering', 
+        name: 'Following', 
         path: '/user/following'
     },{
         name: 'Posts', 
