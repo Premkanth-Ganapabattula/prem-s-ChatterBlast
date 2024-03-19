@@ -201,17 +201,24 @@
   @media (max-width: 900px) {
     .post-comments-card {
       display: block;
+      width: 100%;
     }
 
     .comments-lists {
       height:50vh;
+      width: 100%;
     }
 
     .post-container-in-comments-card {
       aspect-ratio: 18/12;
+      width: 100%;
     }
 
     .post-container {
       aspect-ratio: 0;
+    }
+
+    .comments-display-container {
+      width: 100%;
     }
   }
