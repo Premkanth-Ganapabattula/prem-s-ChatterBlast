@@ -4,6 +4,8 @@ import ChatDetails from "../chatDetails";
 import ChatDetailsSmallDevices from "../chatDetailsSmallDevices";
 import { IoMdSend } from "react-icons/io";
 import { PiDotsThreeOutlineVerticalFill } from "react-icons/pi";
+import { ImAttachment } from "react-icons/im";
+import { HiOutlineEmojiHappy } from "react-icons/hi";
 import moment from "moment";
 import './index.css'
 
@@ -146,6 +148,8 @@ class ConverstionDetails extends Component {
                 </div>
                 <div className='input-elements-for-messages-small'>
                   <div className="input-container">
+                    <ImAttachment />
+                    <HiOutlineEmojiHappy />
                     <input type="text" required value={messageFromInput} className='input-element-in-messages' placeholder='Write Message Here' onChange={this.onChangeMessage}/>
                     <IoMdSend className="send-icon" onClick={this.onClickSendIcon}/>
                   </div>
